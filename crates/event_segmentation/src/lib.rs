@@ -1,6 +1,3 @@
-mod legacy;
-pub use legacy::*;
-
 mod batch_segmentation;
 pub use batch_segmentation::*;
 
