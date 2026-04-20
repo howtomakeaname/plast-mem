@@ -1,5 +1,5 @@
-mod batch_segmentation;
-pub use batch_segmentation::*;
+mod legacy;
+pub use legacy::*;
 
 mod event_segment;
 pub use event_segment::{EventSegment, EventSegmentReason};
